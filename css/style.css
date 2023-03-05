@@ -1,0 +1,27 @@
+main {
+	display: flex;
+	width: 60vw;
+	height: 100vh;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	border-radius: 50%;
+	background: rgb(243, 5, 5);
+	background: linear-gradient(
+		90deg,
+		rgba(243, 5, 5, 1) 49%,
+		rgba(251, 185, 33, 1) 100%
+	);
+	font-size: 40px;
+	color: aliceblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
